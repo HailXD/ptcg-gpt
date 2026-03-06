@@ -8,7 +8,7 @@ You will be given a "card pool list" (my owned cards) where each line is:
 {count} {setCode} {cardNumber} # Name (SuperType) {jsonCardObject}
 
 Example line:
-2 MEG 129 # name (supertype), {"subtypes":"Stadium", ...}
+2 MEG 129 # name (supertype [P=Pokemon,E=Energy,T=Trainer]), {"subtypes":"Stadium", ...}
 
 The JSON will usually contain fields like:
 - subtypes (Basic/Stage 1/Stage 2/ex/ACE SPEC/Special/etc.)
